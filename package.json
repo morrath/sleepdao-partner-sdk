@@ -1,7 +1,7 @@
 {
-  "name": "sleepdao-partner-sdk",
+  "name": "insomnia",
   "version": "1.0.0",
-  "description": "A robust SDK enabling SleepDAO partners to securely fetch, process, and integrate user sleep data into their own platforms. This SDK requires a unique API key—issued upon official partnership—and provides configurable data handling options to tailor the integration to your specific needs.",
+  "description": "A robust SDK enabling Insomnia to securely fetch, process, and integrate user sleep data into their own platforms. This SDK requires a unique API key—issued upon official partnership—and provides configurable data handling options to tailor the integration to your specific needs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
