@@ -11,6 +11,15 @@ async function fetchUserSleepData(userId, options = {}) {
     return response.data;
 }
 
+async function fetchAllSleepData(options = {}) {
+    const response = await axios.get(`${API_BASE_URL}/sleep/all`, {
+        headers: { Authorization: `Bearer ${config.apiKey}`},
+        params: options,
+    });
+    return response.data;
+}
+
 module.exports = {
     fetchUserSleepData,
+    fetchAllSleepData,
 };
