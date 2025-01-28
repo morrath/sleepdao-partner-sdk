@@ -33,8 +33,8 @@ Follow these steps to set up the SDK in your project:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/insomnia-partner-sdk.git
-   cd insomnia-partner-sdk
+   git clone https://github.com/morrath/insomnia.git
+   cd insomnia
    ```
 
 2. **Install Dependencies**:
